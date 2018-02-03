@@ -78,9 +78,9 @@ data:
   # etcd-key: null
   # etcd-cert: null
   # etcd-ca: null
-  etcd_ca: "/calico-secrets/etcd-ca"
-  etcd_cert: "/calico-secrets/etcd-cert"
-  etcd_key: "/calico-secrets/etcd-key"
+  etcd_ca: L2NhbGljby1zZWNyZXRzL2V0Y2QtY2E=
+  etcd_cert: L2NhbGljby1zZWNyZXRzL2V0Y2QtY2VydA==
+  etcd_key: L2NhbGljby1zZWNyZXRzL2V0Y2Qta2V5
 ---
 
 # This manifest installs the calico/node container, as well
