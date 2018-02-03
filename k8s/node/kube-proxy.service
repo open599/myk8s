@@ -6,7 +6,7 @@ After=network.target
 [Service]
 WorkingDirectory=/var/lib/kube-proxy
 EnvironmentFile=/etc/kubernetes/kube-proxy.env
-ExecStart=/root/local/bin/kube-proxy \
+ExecStart=/root/kubernetes/server/bin/kube-proxy \
   --master=http://${MASTER}:8080 \
   --bind-address=${NODE_IP} \
   --hostname-override=${NODE_IP} \
