@@ -54,10 +54,12 @@ data:
 
   # If you're using TLS enabled etcd uncomment the following.
   # You must also populate the Secret below with these files.
-  etcd_ca: "/etc/etcd/certs/base/ca.pem"   # "/calico-secrets/etcd-ca"
-  etcd_cert: "/etc/etcd/certs/client/client.pem" # "/calico-secrets/etcd-cert"
-  etcd_key: "/etc/etcd/certs/client/client-key.pem"  # "/calico-secrets/etcd-key"
-
+  # etcd_ca: "/etc/etcd/certs/base/ca.pem"   # "/calico-secrets/etcd-ca"
+  # etcd_cert: "/etc/etcd/certs/client/client.pem" # "/calico-secrets/etcd-cert"
+  # etcd_key: "/etc/etcd/certs/client/client-key.pem"  # "/calico-secrets/etcd-key"
+  etcd_ca: "/calico-secrets/etcd-ca"
+  etcd_cert: "/calico-secrets/etcd-cert"
+  etcd_key: "/calico-secrets/etcd-key"
 ---
 
 # The following contains k8s Secrets for use with a TLS enabled etcd cluster.
