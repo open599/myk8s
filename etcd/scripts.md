@@ -5,3 +5,14 @@ cfssl gencert -ca=certs/base/ca.pem -ca-key=certs/base/ca-key.pem -config=config
 
 cfssl print-defaults csr > client.json
 cfssl gencert -ca=certs/base/ca.pem -ca-key=certs/base/ca-key.pem -config=config/base/ca-config.json -profile=client config/client/client.json | cfssljson -bare client
+
+cfssl print-defaults csr > server.json
+cfssl gencert -ca=certs/base/ca.pem -ca-key=certs/base/ca-key.pem -config=config/base/ca-config.json -profile=server config/server/server.json | cfssljson -bare server
+
+mkdir /etc/etcd/certs/
+cp -r certs/* /etc/etcd/certs/
+cp etcd.service /etc/systemd/system/
+cp etcd.env /etc/etcd/
+
+export ETCDCTL_API=3
+etcdctl  --cacert=/etc/etcd/certs/base/ca.pem --cert=/etc/etcd/certs/client/client.pem --key=/etc/etcd/certs/client/client-key.pem  --endpoints=192.168.57.2:2379,192.168.57.3:2379,192.168.57.4:2379 endpoint health
