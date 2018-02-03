@@ -1,0 +1,19 @@
+{
+    "CN": "member1",
+    "hosts": [
+	"192.168.57.2",
+	"127.0.0.1"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "CN",
+            "L": "Beijing",
+            "ST": "Beijing"
+        }
+    ]
+}
+
