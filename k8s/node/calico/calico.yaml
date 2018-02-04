@@ -78,9 +78,9 @@ data:
   # etcd-key: null
   # etcd-cert: null
   # etcd-ca: null
-  etcd_ca: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURjakNDQWxxZ0F3SUJBZ0lVTUFGOFpMcjVMakxQR1VYeWJjSVVKbGEra1ZBd0RRWUpLb1pJaHZjTkFRRUwKQlFBd1B6RUxNQWtHQTFVRUJoTUNRMDR4RURBT0JnTlZCQWNUQjBKbGFXcHBibWN4RHpBTkJnTlZCQW9UQm5SaAphM1Z6YnpFTk1Bc0dBMVVFQXhNRVpYUmpaREFlRncweE9EQXlNRE13TnpJeU1EQmFGdzB5TXpBeU1ESXdOekl5Ck1EQmFNRDh4Q3pBSkJnTlZCQVlUQWtOT01SQXdEZ1lEVlFRSEV3ZENaV2xxYVc1bk1ROHdEUVlEVlFRS0V3WjAKWVd0MWMyOHhEVEFMQmdOVkJBTVRCR1YwWTJRd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3Z2dFSwpBb0lCQVFDOXpRM3A2OWN0M3R4YTRGOVdsZnZWRi9BNTFpYVFFVFo3RzdhSW9IbENJUTNJbUw4UnBkRDFMeDNOCis3MDZZMTBIMDB0MUNVNFJTQk9UZDJ5RXk0RWdBTUhFeEpWc1dPVjNtNjZOSnMrQnlaM3hZSk5NSi9DL1lVYTEKVHhhS0dEWndYZEliaUNKbjdlNFhMSTZDOHJiZlBncTJ4RFpZSFBoaDEvZG5xamlzR0RKd3JZSHhpMVNvWDdTdQpvMTBPcjA3aUw0OGgyQldydzV4NjBBS3Q0NFY3aXNnTzltb21xcTBLNDRsa2I0OXA3eWJ4djRraE5mOHNrdlExClVMRzJXOEUzODZZeGNETFpEZWdNZ2hNK2N4R3Q4L3F6TThPc2dHcUkzVzV5Nm83TUFHL0pPTmNiS09UZUU0VTQKT2t4WnBvWnAwd1A2R1BCaXRTVFBtdVcvSlpoYkFnTUJBQUdqWmpCa01BNEdBMVVkRHdFQi93UUVBd0lCQmpBUwpCZ05WSFJNQkFmOEVDREFHQVFIL0FnRUNNQjBHQTFVZERnUVdCQlRWR1NxNHVnM0o4SFpqTS9FYkpLUVduNDBjClhqQWZCZ05WSFNNRUdEQVdnQlRWR1NxNHVnM0o4SFpqTS9FYkpLUVduNDBjWGpBTkJna3Foa2lHOXcwQkFRc0YKQUFPQ0FRRUFieUlpWUU4RGJkWXEzempGcFUrdUQ0bUJXN2R3UjdYZEd6dWRoU2hrMjRVYnViN25RcXZzaUd2cgpQblFXMUk0elB4SkpVQTl2QjBRcHlYWlBadUgyWnVVeXF1b0JJNXVaVlkzWGpHOGEza25IK3RISzlwWG8yR2xuClRzUHZEMGs3bFl2amY3ZDVkOEppSlMrQm1wcUMyTGxxUW1OdXVQaFNtNlVVZ1ZFMkFtQ2xnbWlnQ3g1ODlhcjAKRmNRQ3dnY29iRVVpQlZOY1FGeURvN1RIcURUckk2am45QVFBQ0hwNnZRT0ZpNTNRNTFyWGs1STFLcFRienI5dwo2MzhrTGpiV0V0MEtEQTlhQUFXdnJUYzRFWklsRnFJK25qTVBIL1p1NVgxMVdxTjRaTTB6V3BXSFZsSGVDbWhQCksrdzBhS2d1c3Bka0tTVE5jalNGWERobFFzcy9mUT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
-  etcd_cert: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURoRENDQW15Z0F3SUJBZ0lVSHdNVmM3Q2lDWUhvRUNnSE9sdTR3ZmZNWElBd0RRWUpLb1pJaHZjTkFRRUwKQlFBd1B6RUxNQWtHQTFVRUJoTUNRMDR4RURBT0JnTlZCQWNUQjBKbGFXcHBibWN4RHpBTkJnTlZCQW9UQm5SaAphM1Z6YnpFTk1Bc0dBMVVFQXhNRVpYUmpaREFlRncweE9EQXlNRE13TnpReE1EQmFGdzB5TXpBeU1ESXdOelF4Ck1EQmFNRUl4Q3pBSkJnTlZCQVlUQWtOT01SQXdEZ1lEVlFRSUV3ZENaV2xxYVc1bk1SQXdEZ1lEVlFRSEV3ZEMKWldscWFXNW5NUTh3RFFZRFZRUURFd1pqYkdsbGJuUXdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBdwpnZ0VLQW9JQkFRRE0wTlU2cHFTcDJZbHUzWENsL3FkNWNOZWZUMERqQTgyQTdtQm15NW12YnFXdTIrVm5oUzVKCitGRkx2N1NCWWloSHlzU0hmZXVFMGw3bGlWVFhyWER6ME16dmNuOGxiS3RCTkJzTkRLS054TkkrckFsQVBNa1YKbk0rWVFKK3V5MTBlSUJMVm9WS00zUnFDcDRGR0E2NTBHaDdBQVRmSmN5emNjb0RRaDNjc2tOK1VoT01rVjJZQgoyK1lPZC9ic010MmJXNnlqc3FVTit2MFFrbmE3M2V3Q1YvZk1EcWhOREhtRHBRUlh1ZXRLcFRkbjVSLzRtUlZ1Cjc4NHJtSnlZV0F3dHJsN2xOa0FiZ1JrVEZ1NWdGR2lqc01XVFRoSUFrcXhkUnVpVE5WRnlhY1k5NDhiNXlqTHAKKzM2QnJ5STNZWXNvK0pYZlBSK3lVOTZWY2xoZnYvTUxBZ01CQUFHamRUQnpNQTRHQTFVZER3RUIvd1FFQXdJRgpvREFUQmdOVkhTVUVEREFLQmdnckJnRUZCUWNEQWpBTUJnTlZIUk1CQWY4RUFqQUFNQjBHQTFVZERnUVdCQlF2CmpyR1k2KzluOVhsRFAyRjVMNTlnczlTN1pEQWZCZ05WSFNNRUdEQVdnQlRWR1NxNHVnM0o4SFpqTS9FYkpLUVcKbjQwY1hqQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFjd1ZXS0ZzSjZGcHJmcnRLTkh3VXBhSUZBSk9VT0VkbQpiQ3k4aHkwOEtuR1JwRlJGcEUxSE83c2FCZGJnRWEvTFdqVFNSTEpMdEtKMDV6b1VCV3RzRHF4SnE4clRuTmNPCmJaZlg2K2VKZm9ZWTBKalpIR2w4SElUektaNzdtYnZFKzRETVd4N0EzNjFyUXIybnF3WGxUWVQyVEJyMXZrRUYKdjhLUUZIcnU5akQ4bkFVdjdxRlNKeDh5eWdCVkRlVTh6SW1zdGpUM0o1UjZ1Zk1uUE41bFlvdGpKT053M21DdgpLRUVOM3Y2Vld1djl6ZVQ2WGtsaFhQajlLRldCTm5RVG4rZWRnYTNLN0RBYnQzT0ZtWkRGR2UyTDRNSzUwZXZCCm5pajZvQ3RtSzlxT01BZUlVS0hjUnhrS01sSm0vdjA1SkxWUmNQYVNvK3kxRmVEa1JuZWxOQT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
-  etcd_key: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBek5EVk9xYWtxZG1KYnQxd3BmNm5lWERYbjA5QTR3UE5nTzVnWnN1WnIyNmxydHZsClo0VXVTZmhSUzcrMGdXSW9SOHJFaDMzcmhOSmU1WWxVMTYxdzg5RE03M0ovSld5clFUUWJEUXlpamNUU1Bxd0oKUUR6SkZaelBtRUNmcnN0ZEhpQVMxYUZTak4wYWdxZUJSZ091ZEJvZXdBRTN5WE1zM0hLQTBJZDNMSkRmbElUagpKRmRtQWR2bURuZjI3RExkbTF1c283S2xEZnI5RUpKMnU5M3NBbGYzekE2b1RReDVnNlVFVjduclNxVTNaK1VmCitKa1ZidS9PSzVpY21GZ01MYTVlNVRaQUc0RVpFeGJ1WUJSb283REZrMDRTQUpLc1hVYm9relZSY21uR1BlUEcKK2NveTZmdCtnYThpTjJHTEtQaVYzejBmc2xQZWxYSllYNy96Q3dJREFRQUJBb0lCQVFDV0NaRjZZcU1UamJsQQp6dFQ3dE4zb2Q0SnRRTGlPMUxWUmNzNkozekpaTWx3TENTazNPWGZjVmh6dnVhSzRlVGg2eHc1TEZ6SlYzV29KCkNoNXQxSzkrM0lHVUV6TVRMbFVSOGVLekg0TmhDVUxmQ0ZYS2lmemdhVHdtRTRrbW1mRS81VTBHMUNQTjd4YkIKaVlXSXpaK1ppNXpsR0w5T1FxSWxaM2YzeXBUQnZwc3pvRlJHNjFiTFh5alBPNlBRZGhnMnVBNngzb3hteng3UQpWaGRWTlBNbm1tVHFZYVJvU0hvWjByQXZ5YTRGdS9nb0xPc0NLcHNrbjZjSlNOVXY5MGxCWmFsWVJsK1NZTFRzCktaUlRXdUFCSkVoaG1SajRvTEpZTlBPbHgzSGdNckJ6bjJQY3ZFVm8xQWRWU0Y2SGJBb241VXlyUGpnZ1VLYU0KSlUwS3JIT3hBb0dCQVBDc05CSzQwNDlrcFBRbUkrUUpKSkpuOXlIcWRnbkxuNkVjZGJqM1dkTG15LzN0dW1QNwpHUlRsN1c3VXg3d1d0WEFYSEZpMVVDL2hEemlGTVVxcS9Qc09nSjFJZ3ZRb0VUZVZ4dDhRcWpRYWZYby9zeGZPCnJvYmQyQnFaYitWQk9aYlFjd21aV3psaHpRb0pncURhdThZR0htZVY5VFN2cUFZRXU3RlZsOFFaQW9HQkFObmMKQ2E1cmNVQllYU0Q2c2liaDlUWlNBUlM4UlFEaTRPK29JZUluWmJVSnYvYXFPVldhUkxyN2Qwd2dHZTFpT0tsWApmSlFPVk5ibnNqb2hxcUNub2dpaWFHeUx0UzRJVTkreGRkVGFLVDZzTUlvN2xnUGxWNHlLVWVOY0dWTEtjbmZSClRoLy9Ya29CeXkwOUM1R0pOazkvOStmU2FHYU95T3lGSEhONTVMVERBb0dBQ0NyUDJaTE1HeUdmTjJuVDdma2gKZEpaeW5JUUlYV3k3amd3Wk1wMnlQcVgyWmplYkM2bUp3RnZOSXVXMW9YeGp5OW44N0VXNjR1VVFUeXExOFlLNwo4d2thOUR0eHRqZGwzaTBIQXFyZUc4YUtXNHV0MkREN1d6aE1EUnNINFEvRmxJaWVYc1VGZzN6K0tFa0tWY3NXCmRESGc5a0x3ZjBrMnVuMk9vUVgya0lFQ2dZQmJ0eHlFUjBzb01Zc1RSVGNXMDIxdDd0dnhwTWpQOUxPSmNSakMKb3A5WXRjQVEwZHpOUXVMSWJQRHVKVjJFNkNLK2Q4eEVjRHdiTlBOOU1Zc3BreWpOeGNGOFlOeG5ncTM4c0RMUQo1djhTR1Y5ZDhuUFhOQWZGYkwzSW40OHhvWFRMS0Z4aGNCcDd3WUdOaS9PQTAyai8wdm5FcUhtM0kwbEcrVXJlCittUGtEUUtCZ0d5Zm1xeWxzSy9zdFZQVk1BV01YRnY0cTlQdm9ZcjhCQWgwU3dPOEtqWTFwbHUxdnhnT01MTEkKd25Fb2tUd1JWZGdOOHVEUFVmY2lUSnowZWF2VW1uRUhNakJDY1hvTkphMXNFNnJTV3RNeXdSYmlGRGpFbHNtVApSdWFjUEdjUmNmVU1mZTRyUWZid3lMZVBzSzlyd2dHazhXZ2plcVZHNXQxQVpnYjc4RnJPCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+  etcd_ca: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUR2akNDQXFhZ0F3SUJBZ0lVQ3kvclBPN3dJcDFUdllIOVhxWlhTSzh0Z1Qwd0RRWUpLb1pJaHZjTkFRRUwKQlFBd1pURUxNQWtHQTFVRUJoTUNRMDR4RURBT0JnTlZCQWdUQjBKbGFVcHBibWN4RURBT0JnTlZCQWNUQjBKbAphVXBwYm1jeEREQUtCZ05WQkFvVEEyczRjekVQTUEwR0ExVUVDeE1HVTNsemRHVnRNUk13RVFZRFZRUURFd3ByCmRXSmxjbTVsZEdWek1CNFhEVEU0TURJd016QTROREV3TUZvWERUSXpNREl3TWpBNE5ERXdNRm93WlRFTE1Ba0cKQTFVRUJoTUNRMDR4RURBT0JnTlZCQWdUQjBKbGFVcHBibWN4RURBT0JnTlZCQWNUQjBKbGFVcHBibWN4RERBSwpCZ05WQkFvVEEyczRjekVQTUEwR0ExVUVDeE1HVTNsemRHVnRNUk13RVFZRFZRUURFd3ByZFdKbGNtNWxkR1Z6Ck1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBeHJkaWpuRm5rTTliaWNDczFoRmcKYlFGRHFMZTlQNWhsQkNKUGFOcXoyS3lXMTNYSzZpcEsydk9iWkt6WE9vZWFRS2JjN2dLTHFRNVNxSlp2NTNaRwp1NmUxOXFpQSsrVXRKcG5KZXl2WUFVN0o3cHNOY08xMktVck5jVzNjT0xpRGZ4RFF4VHlPSmxCOUNTM2NtcjBlCmF1eFhJUFZZU2VkbCtCS0Z6S3VBT29OOWlJRWxFY1lpNUxqZWlRRjgrcnlGUkl4elNLWmY5Q25wOGUvSWhBQVYKVVRrYkx6SHNMMmNTdTF5bGtlUlE0YXJkYVhzK0RvWjA2SHhQckg2UnM0ekhmVG50STZSdVNVV1lxUUZ4cURLTgpBay90c3VjVXJRR2dDL2ZkK0VKWXpBblhvQjI0empJYWV5NmxvbU04NWJIeEFzdGhBZVFrd3ZxbmcrRUNFaEpRCjl3SURBUUFCbzJZd1pEQU9CZ05WSFE4QkFmOEVCQU1DQVFZd0VnWURWUjBUQVFIL0JBZ3dCZ0VCL3dJQkFqQWQKQmdOVkhRNEVGZ1FVcVczZG9STUxLVHV4UTJZSTZkSXhLd2tnRjJrd0h3WURWUjBqQkJnd0ZvQVVxVzNkb1JNTApLVHV4UTJZSTZkSXhLd2tnRjJrd0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFCSWpjS1d6ZzB2azhCcWovbFBKCndSNG9WWUtyUWVKa0xoUEVQNmt0djFQWmtwaTdWVWhnNHdBQkRseTM0TUZOM1RURmd1VHpBS0Z3VC8rN0FZMDIKT2YzSmxwOVZIMExWVUxCOVJqalVyUHpJUGJGMFFWZDljZThHWWl0c0VCaHkzQ1JkWndCM1RGUU5oN2FJQS95YQpOakJ0RlJuMnlkZENFSVU3UzB5NWFvMDlGTEtKRkI4UktENGhtYXZPZXlmem1HQUN2NTlsSExxbDZGWVh0U3dKCjRYUUpHVlh6MHh3djd3a3JZMy9JZDBDdlUvVmFuRDRvZWVvVUlaYTRqeFNGOHFrSk1vSzI3eEZyb2dMMllZYlcKckhzZHBOeHlDZTNBcDlaeWxFaE8xVjhzeFVQaFEycFlBMUhmOERBYXlHaVloNzluYjgrcjF5L3RidXdyM2V1dQpuWEk9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+  etcd_cert: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVlVENDQTJHZ0F3SUJBZ0lVUHdxZGRnRnY3bUFSZG83L1VCazFwZW9tSmQwd0RRWUpLb1pJaHZjTkFRRUwKQlFBd1pURUxNQWtHQTFVRUJoTUNRMDR4RURBT0JnTlZCQWdUQjBKbGFVcHBibWN4RURBT0JnTlZCQWNUQjBKbAphVXBwYm1jeEREQUtCZ05WQkFvVEEyczRjekVQTUEwR0ExVUVDeE1HVTNsemRHVnRNUk13RVFZRFZRUURFd3ByCmRXSmxjbTVsZEdWek1CNFhEVEU0TURJd016QTROVEV3TUZvWERURTVNREl3TXpBNE5URXdNRm93WlRFTE1Ba0cKQTFVRUJoTUNRMDR4RURBT0JnTlZCQWdUQjBKbGFVcHBibWN4RURBT0JnTlZCQWNUQjBKbGFVcHBibWN4RERBSwpCZ05WQkFvVEEyczRjekVQTUEwR0ExVUVDeE1HVTNsemRHVnRNUk13RVFZRFZRUURFd3ByZFdKbGNtNWxkR1Z6Ck1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBdk5pdFJWdlBVSlU5ZlA4Mnh2elUKNTB4MFVLQklrYzcrdWI3ZGlSODczdmppZThGNm82SDVtOFpYUng4SU9oZWNWQWJzQmpNZTkvNGE0VW9jcitCTwo0VGk1aGt6VkVDeFNyNDRNNEtqMmlIb2JQYmNSNC9DSmQ1MUJuWklIVXNPb0VhVVFhRTVvd2ZOK1NkNGVUMDgvCmpnVExEL2p2ejVoenB2N1EwU2w5dTBNeWNEYTRUa2ZlcjZ6aDlhc216LzRLTGhETzdQVUdxVWVQYmM3dldtOG0KRWJ5SEt4Q3BMT1FVaFkzcXd4YytPZGoraUcrbkJtTkF6b0NQOS9sTDNRbnkvb3p2N3UxaHBSSHF5TC9QckwvNgpLMWQ3ZDVPMkdYRm5NdytpTEplVEl6NkZyOENYMncxRmJreVRnbnJFT2hEaEE3Z1NPaE81Wld0dHg1N0dQcEpjCkVRSURBUUFCbzRJQkh6Q0NBUnN3RGdZRFZSMFBBUUgvQkFRREFnV2dNQjBHQTFVZEpRUVdNQlFHQ0NzR0FRVUYKQndNQkJnZ3JCZ0VGQlFjREFqQU1CZ05WSFJNQkFmOEVBakFBTUIwR0ExVWREZ1FXQkJRemo3QVdPNDJUTGpveQpRbVdDNDI3V1I1OHhxREFmQmdOVkhTTUVHREFXZ0JTcGJkMmhFd3NwTzdGRFpnanAwakVyQ1NBWGFUQ0Jtd1lEClZSMFJCSUdUTUlHUWdncHJkV0psY201bGRHVnpnaEpyZFdKbGNtNWxkR1Z6TG1SbFptRjFiSFNDRm10MVltVnkKYm1WMFpYTXVaR1ZtWVhWc2RDNXpkbU9DSG10MVltVnlibVYwWlhNdVpHVm1ZWFZzZEM1emRtTXVZMngxYzNSbApjb0lrYTNWaVpYSnVaWFJsY3k1a1pXWmhkV3gwTG5OMll5NWpiSFZ6ZEdWeUxteHZZMkZzaHdSL0FBQUJod1RBCnFEa0Nod1FLL2dBQk1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQW5iUjM5cUxCUHNHbnpzQWlETnJlL0JpeDYKZHlmTlp3ZlZ4S25SUldyNjVzU0RiRVk1NUhWcllkRUFJcmNndFJ6Z1gycUExVFVlZ25NQTZ4Z1FNdFJyd0pIbApaNC80emtSSGdsNXNXWGs4UXcxWjY0NWFWTTVrR0cwUjRoTm12c1ZqMVVpVzZCZzJVSEZVeEFPTlllejNIcmN1CkhDZDRPSU5hNEplOTVlcHg2cHJ3SmdxUldFR0hCSlFnL3ZPb2pUbnlIWXJJa0UyRVRHMzk2a29sMFNhMFIyQTIKOTNGZjFzdFNPZHk1cTFWdUV0ZmFsZW1Jem9tRDJ6VC94T2Ridnl3bkROL0VwYWFrdm1XeGMwKzJ5UzhEYkhzMgpocFRwUk5PQm8vbEZISS9xU0twMlE5clM4dGFuR2dXUkxQZldUY3NOMDZJdVd3R2pKWU52K08ySVRrcHEKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo="
+  etcd_key: "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb2dJQkFBS0NBUUVBdk5pdFJWdlBVSlU5ZlA4Mnh2elU1MHgwVUtCSWtjNyt1YjdkaVI4NzN2amllOEY2Cm82SDVtOFpYUng4SU9oZWNWQWJzQmpNZTkvNGE0VW9jcitCTzRUaTVoa3pWRUN4U3I0NE00S2oyaUhvYlBiY1IKNC9DSmQ1MUJuWklIVXNPb0VhVVFhRTVvd2ZOK1NkNGVUMDgvamdUTEQvanZ6NWh6cHY3UTBTbDl1ME15Y0RhNApUa2ZlcjZ6aDlhc216LzRLTGhETzdQVUdxVWVQYmM3dldtOG1FYnlIS3hDcExPUVVoWTNxd3hjK09kaitpRytuCkJtTkF6b0NQOS9sTDNRbnkvb3p2N3UxaHBSSHF5TC9QckwvNksxZDdkNU8yR1hGbk13K2lMSmVUSXo2RnI4Q1gKMncxRmJreVRnbnJFT2hEaEE3Z1NPaE81Wld0dHg1N0dQcEpjRVFJREFRQUJBb0lCQUdaRDZFRWhJTG1BdUJXUwpsM1ZXd1d5b0tHem8vNk9HTnNjYnB4aDBnNVdScmdSYW1ERTRxOVZCcVUzb2Jpb1hVeDdseUxicXhDQ0R5TWFyCnZiRTRoVDdOMnhueFRZZyttR0JkU25mMng5ck1WU2dzbFZHY2xyVGh3Z0MwYmFiU01aZXNqYUFPcGdneDlmZkcKZ3g5cnlQejlkNEdreXlqZVkvTFJGdi9OdWpySGtLRU15MDNIU2ZvZlAxR0xDdEFtR004TTJsYy9EeTFJV3NSSApzTithc3pRRzllU2xxdW1jL3NkUldqOE1SMEpNWUwrcENJZ1dGMWliN241Tk5RYXAwUWVmOVZqTTJxY2puK0NUCjNTUXltOU05TnhSV2JaNU5zcklQazZkZDZ1K3RFcjlLOXcxZWZ2SHVjZFUxaVczZE5lK1VqTXd6TURnbWdjanQKWklHMEF1a0NnWUVBMDlkamdBTlJ4WHhhUWtXKzNwQlc0bE9hNTFrS2tWSU5qdzloZ0RDalBBN28ycDM4VFhTYwpDQytuSlU0aGduM1QxMCtRZWlUazVkTEpnTDRabjdnS3UrQytReXdLWm0rTzBkUERkN3lKY3ViOURtOW5wSlMwCmNjT3FMMWZySE14eFJicVJlWDF0elhjR21NYm5QRGJYRFZlNXcxWjkxN3FCcko2bDdNVERiRE1DZ1lFQTVEWXgKMEFOaS9mOEVlcHJxVFo4RlNFYXRTdTdkanRSL0FPWG5oS242M2VxVEZqTXRGckdhUXpaS3RSK0I0ckpRU3pkYgp5bmdMaWNjeGF2M3lva05qUUdXU2tRNkdHMVpOUUFYU3pBT3BiNk1vUnRrU3BpbzNWUlhSencyZVdkSVR0TStBCi9MRU9JZjZtVmgwQThDSTVXaXBTMkdYZlIvRkxsTzZqQjU1Y2txc0NnWUJVbXNzMFR4OFRYa3kxOXlENXhtL00KeUZNdlhsSm9JM3NpemFQRkRLZkV6cmVVeUZBQnB6YkIxalpOSWQwa1BwaWlmelpXY2ZHeEQvUkdKS1liTWVlbgpqV1N2Y3lGY00rVzRTM2pma3o3WjB3THlCdkEvdk53c0sxY0d2WGc2OGpPekE0WWlIVVFETVN4RFMvMENBV3oxCitUbEptSHQ5OHhEakhpRnFaRk1nSFFLQmdFemN0L0JBZzhIYWQyNjM2SHhXTjlnOC9iYkVOdGtaVnVFOWpibVAKNm85OXB5YU4rL3l0dXJBeWcvejI3Szhtc1laejBiV2lzdmdubjh4U1Zic3pDU1d5VUNnTkJUd0YyQ1RkRVQ5bgphRlRTVmdsdXFTcFFBNnpqbVhPc09ZNDFCREFjeDJ2VVVsYyt4bFV3bFpWTFlaZXRzNU53MUVBTjFCQUlROTZZCkJzUGJBb0dBUWdaYVAwSHp6VGdXWDBxcHVHTTRDYVpiclRnaGc2TVowTitNV1RqV3Z2Qm10SFRjcklXQjZaYisKaG01Qkl4N2JmV0p5WXBPbWVOK0VOMkQ4WGJQTWNQYVQyUm00czFsQnVQNElOOVZjMWVHWlg1VkZVbjFIYUhReQp1RHRhb000dXVnVzlzZjhYY2MxWHZldVN2dTRZK1VOeGh6ckN1Vy9mL1VnSzkzRFpBdGM9Ci0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg=="
 ---
 
 # This manifest installs the calico/node container, as well
@@ -120,100 +120,100 @@ spec:
         # Runs calico/node container on each Kubernetes node.  This
         # container programs network policy and routes on each
         # host.
-        # - name: calico-node
-        #   image: quay.io/calico/node:v3.0.1
-        #   env:
-        #     # The location of the Calico etcd cluster.
-        #     - name: ETCD_ENDPOINTS
-        #       valueFrom:
-        #         configMapKeyRef:
-        #           name: calico-config
-        #           key: etcd_endpoints
-        #     # Choose the backend to use.
-        #     - name: CALICO_NETWORKING_BACKEND
-        #       valueFrom:
-        #         configMapKeyRef:
-        #           name: calico-config
-        #           key: calico_backend
-        #     # Cluster type to identify the deployment type
-        #     - name: CLUSTER_TYPE
-        #       value: "k8s,bgp"
-        #     # Disable file logging so `kubectl logs` works.
-        #     - name: CALICO_DISABLE_FILE_LOGGING
-        #       value: "true"
-        #     # Set noderef for node controller.
-        #     - name: CALICO_K8S_NODE_REF
-        #       valueFrom:
-        #         fieldRef:
-        #           fieldPath: spec.nodeName
-        #     # Set Felix endpoint to host default action to ACCEPT.
-        #     - name: FELIX_DEFAULTENDPOINTTOHOSTACTION
-        #       value: "ACCEPT"
-        #     - name: IP_AUTODETECTION_METHOD
-        #       value: "interface=enp0s8"
-        #     # Configure the IP Pool from which Pod IPs will be chosen.
-        #     - name: CALICO_IPV4POOL_CIDR
-        #       value: "10.254.0.0/16"
-        #     - name: CALICO_IPV4POOL_IPIP
-        #       value: "off"
-        #     # Disable IPv6 on Kubernetes.
-        #     - name: FELIX_IPV6SUPPORT
-        #       value: "false"
-        #     # Set Felix logging to "info"
-        #     - name: FELIX_LOGSEVERITYSCREEN
-        #       value: "info"
-        #     # Set MTU for tunnel device used if ipip is enabled
-        #     - name: FELIX_IPINIPMTU
-        #       value: "1440"
-        #     # Location of the CA certificate for etcd.
-        #     - name: ETCD_CA_CERT_FILE
-        #       valueFrom:
-        #         configMapKeyRef:
-        #           name: calico-config
-        #           key: etcd_ca
-        #     # Location of the client key for etcd.
-        #     - name: ETCD_KEY_FILE
-        #       valueFrom:
-        #         configMapKeyRef:
-        #           name: calico-config
-        #           key: etcd_key
-        #     # Location of the client certificate for etcd.
-        #     - name: ETCD_CERT_FILE
-        #       valueFrom:
-        #         configMapKeyRef:
-        #           name: calico-config
-        #           key: etcd_cert
-        #     # Auto-detect the BGP IP address.
-        #     - name: IP
-        #       value: "autodetect"
-        #     - name: FELIX_HEALTHENABLED
-        #       value: "true"
-        #   securityContext:
-        #     privileged: true
-        #   resources:
-        #     requests:
-        #       cpu: 250m
-        #   livenessProbe:
-        #     httpGet:
-        #       path: /liveness
-        #       port: 9099
-        #     periodSeconds: 10
-        #     initialDelaySeconds: 10
-        #     failureThreshold: 6
-        #   readinessProbe:
-        #     httpGet:
-        #       path: /readiness
-        #       port: 9099
-        #     periodSeconds: 10
-        #   volumeMounts:
-        #     - mountPath: /lib/modules
-        #       name: lib-modules
-        #       readOnly: true
-        #     - mountPath: /var/run/calico
-        #       name: var-run-calico
-        #       readOnly: false
-        #     - mountPath: /calico-secrets
-        #       name: etcd-certs
+        - name: calico-node
+          image: quay.io/calico/node:v3.0.1
+          env:
+            # The location of the Calico etcd cluster.
+            - name: ETCD_ENDPOINTS
+              valueFrom:
+                configMapKeyRef:
+                  name: calico-config
+                  key: etcd_endpoints
+            # Choose the backend to use.
+            - name: CALICO_NETWORKING_BACKEND
+              valueFrom:
+                configMapKeyRef:
+                  name: calico-config
+                  key: calico_backend
+            # Cluster type to identify the deployment type
+            - name: CLUSTER_TYPE
+              value: "k8s,bgp"
+            # Disable file logging so `kubectl logs` works.
+            - name: CALICO_DISABLE_FILE_LOGGING
+              value: "true"
+            # Set noderef for node controller.
+            - name: CALICO_K8S_NODE_REF
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            # Set Felix endpoint to host default action to ACCEPT.
+            - name: FELIX_DEFAULTENDPOINTTOHOSTACTION
+              value: "ACCEPT"
+            - name: IP_AUTODETECTION_METHOD
+              value: "interface=enp0s8"
+            # Configure the IP Pool from which Pod IPs will be chosen.
+            - name: CALICO_IPV4POOL_CIDR
+              value: "172.20.0.0/16"
+            - name: CALICO_IPV4POOL_IPIP
+              value: "off"
+            # Disable IPv6 on Kubernetes.
+            - name: FELIX_IPV6SUPPORT
+              value: "false"
+            # Set Felix logging to "info"
+            - name: FELIX_LOGSEVERITYSCREEN
+              value: "info"
+            # Set MTU for tunnel device used if ipip is enabled
+            - name: FELIX_IPINIPMTU
+              value: "1440"
+            # Location of the CA certificate for etcd.
+            - name: ETCD_CA_CERT_FILE
+              valueFrom:
+                configMapKeyRef:
+                  name: calico-config
+                  key: etcd_ca
+            # Location of the client key for etcd.
+            - name: ETCD_KEY_FILE
+              valueFrom:
+                configMapKeyRef:
+                  name: calico-config
+                  key: etcd_key
+            # Location of the client certificate for etcd.
+            - name: ETCD_CERT_FILE
+              valueFrom:
+                configMapKeyRef:
+                  name: calico-config
+                  key: etcd_cert
+            # Auto-detect the BGP IP address.
+            - name: IP
+              value: "autodetect"
+            - name: FELIX_HEALTHENABLED
+              value: "true"
+          securityContext:
+            privileged: true
+          resources:
+            requests:
+              cpu: 250m
+          livenessProbe:
+            httpGet:
+              path: /liveness
+              port: 9099
+            periodSeconds: 10
+            initialDelaySeconds: 10
+            failureThreshold: 6
+          readinessProbe:
+            httpGet:
+              path: /readiness
+              port: 9099
+            periodSeconds: 10
+          volumeMounts:
+            - mountPath: /lib/modules
+              name: lib-modules
+              readOnly: true
+            - mountPath: /var/run/calico
+              name: var-run-calico
+              readOnly: false
+            - mountPath: /calico-secrets
+              name: etcd-certs
         # This container installs the Calico CNI binaries
         # and CNI network config file on each node.
         - name: install-cni

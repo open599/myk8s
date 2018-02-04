@@ -16,7 +16,7 @@ ExecStart=/usr/bin/docker run   --net=host --privileged --name=calico-node \
                                 -e IP6= \
                                 -e AS= \
                                 -e CALICO_IPV4POOL_CIDR=172.30.0.0/16 \
-                                -e CALICO_IPV4POOL_IPIP=always \
+                                -e CALICO_IPV4POOL_IPIP=off \
                                 -e CALICO_LIBNETWORK_ENABLED=true \
                                 -e CALICO_NETWORKING_BACKEND=bird \
                                 -e CALICO_DISABLE_FILE_LOGGING=true \
