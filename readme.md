@@ -15,3 +15,12 @@ swapoff -a 或者注释 fstab
 
 
 mkdir /var/lib/kubelet
+
+
+error: failed to run Kubelet: cannot create certificate signing request: certificatesigningrequests.certificates.k8s.io is forbidden: User "kubelet-bootstrap" cannot create certificatesigningrequests.certificates.k8s.io at the cluster scope
+$ kubectl create clusterrolebinding kubelet-bootstrap --clusterrole=system:node-bootstrapper --user=kubelet-bootstrap
+
+tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://vfpzcerd.mirror.aliyuncs.com"]
+}
