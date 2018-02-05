@@ -222,7 +222,7 @@ spec:
           env:
             # Name of the CNI config file to create.
             - name: CNI_CONF_NAME
-              value: "10-calico.conf"
+              value: "10-calico.conflist"
             # The location of the Calico etcd cluster.
             - name: ETCD_ENDPOINTS
               valueFrom:
