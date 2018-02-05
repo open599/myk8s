@@ -217,7 +217,7 @@ spec:
         # This container installs the Calico CNI binaries
         # and CNI network config file on each node.
         - name: install-cni
-          image: quay.io/calico/cni:master
+          image: quay.io/calico/cni:v2.0.0
           command: ["/install-cni.sh"]
           env:
             # Name of the CNI config file to create.
@@ -236,9 +236,9 @@ spec:
                   name: calico-config
                   key: cni_network_config
           volumeMounts:
-            - mountPath: /host/opt/cni/bin
+            - mountPath: /opt/cni/bin
               name: cni-bin-dir
-            - mountPath: /host/etc/cni/net.d
+            - mountPath: /etc/cni/net.d
               name: cni-net-dir
             - mountPath: /calico-secrets
               name: etcd-certs
