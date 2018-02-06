@@ -1,0 +1,1 @@
+calicoctl -ldebug get nodes  -c calico.conf  -o wide

@@ -1,5 +1,5 @@
 1. deploy etcd ,enable tls# myk8s
-
+ change hostname every node
 
 I'm getting totally opposite error: failed to create kubelet: misconfiguration: kubelet cgroup driver: "systemd" is different from docker cgroup driver: "cgroupfs"
 
