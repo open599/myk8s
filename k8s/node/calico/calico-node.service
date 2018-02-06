@@ -11,27 +11,12 @@ ExecStart=/usr/bin/docker run   --net=host --privileged --name=calico-node \
                                 -e ETCD_CA_CERT_FILE=/etc/etcd/certs/base/ca.pem \
                                 -e ETCD_CERT_FILE=/etc/etcd/certs/client/cliet.pem \
                                 -e ETCD_KEY_FILE=/etc/etcd/certs/client/client-key.pem \
-                                -e NODENAME=192.168.57.3 \
-                                -e IP=192.168.57.3 \
-                                -e IP6= \
-                                -e AS= \
-                                -e CALICO_IPV4POOL_CIDR=172.30.0.0/16 \
-                                -e CALICO_IPV4POOL_IPIP=off \
-                                -e CALICO_LIBNETWORK_ENABLED=true \
-                                -e CALICO_NETWORKING_BACKEND=bird \
-                                -e CALICO_DISABLE_FILE_LOGGING=true \
-                                -e FELIX_IPV6SUPPORT=false \
-                                -e FELIX_DEFAULTENDPOINTTOHOSTACTION=ACCEPT \
-                                -e FELIX_LOGSEVERITYSCREEN=info \
-                                -v /etc/etcd/certs/base/ca.pem:/etc/etcd/certs/base/ca.pem \
-                                -v /etc/etcd/certs/client/cliet.pem:/etc/etcd/certs/client/cliet.pem \
-                                -v /etc/etcd/certs/client/client-key.pem:/etc/etcd/certs/client/client-key.pem \
-                                -v /var/run/calico:/var/run/calico \
-                                -v /lib/modules:/lib/modules \
-                                -v /run/docker/plugins:/run/docker/plugins \
-                                -v /var/run/docker.sock:/var/run/docker.sock \
-                                -v /var/log/calico:/var/log/calico \
-                                quay.io/calico/node:v3.0.1
+                                -e NODENAME=192.168.57.1 \
+                                -e IP=192.168.57.1 \
+                                -v /Users/Tsui/git-resource/myk8s/etcd/certs/base/ca.pem:/etc/etcd/certs/base/ca.pem \
+                                -v /Users/Tsui/git-resource/myk8s/etcd/certs/client/client.pem:/etc/etcd/certs/client/cliet.pem \
+                                -v /Users/Tsui/git-resource/myk8s/etcd/certs/client/client-key.pem:/etc/etcd/certs/client/client-key.pem \
+                                calico/node:latest
 ExecStop=/usr/bin/docker rm -f calico-node
 Restart=always
 RestartSec=10
