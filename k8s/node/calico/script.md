@@ -70,6 +70,16 @@ rtt min/avg/max/mdev = 0.373/0.468/0.564/0.097 ms
 
 calicoctl apply -f peer.yaml -c calico-config.yaml
 
+[root@minion1 calico]# calicoctl node status
+Calico process is running.
+
+IPv4 BGP status
++--------------+-----------+-------+----------+--------+
+| PEER ADDRESS | PEER TYPE | STATE |  SINCE   |  INFO  |
++--------------+-----------+-------+----------+--------+
+| 192.168.57.5 | global    | start | 08:35:37 | Active |
++--------------+-----------+-------+----------+--------+
+
 
 [root@minion1 ~]# birdcl -s /var/run/calico/bird.ctl show route
 BIRD 1.6.3 ready.
