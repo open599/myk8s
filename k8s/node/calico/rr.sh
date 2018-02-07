@@ -1,4 +1,4 @@
-docker run -privileged -net=host -d                                \
+docker run --privileged --net=host -d                                \
            -e IP=192.168.57.5                                      \
            -e ETCD_ENDPOINTS=https://192.168.57.2:2379,https://192.168.57.3:2379,https://192.168.57.4:2379                \
            -v /etc/etcd/certs:/etc/etcd/certs                  \
