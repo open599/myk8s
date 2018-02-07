@@ -3,5 +3,6 @@ kind: BGPPeer
 metadata:
   name: peer.minion1
 spec:
+  node: minoin2
   peerIP: 192.168.57.3
   asNumber: 63400
