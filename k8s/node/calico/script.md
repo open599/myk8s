@@ -62,3 +62,24 @@ PING 172.30.34.4 (172.30.34.4) 56(84) bytes of data.
 2 packets transmitted, 2 received, 0% packet loss, time 1000ms
 rtt min/avg/max/mdev = 0.373/0.468/0.564/0.097 ms
 ```
+
+### routereflector on
+
+```code
+./rr.sh
+
+calicoctl apply -f peer.yaml -c calico-config.yaml
+
+
+[root@minion1 ~]# birdcl -s /var/run/calico/bird.ctl show route
+BIRD 1.6.3 ready.
+0.0.0.0/0          via 10.0.2.1 on enp0s3 [kernel1 07:09:41] * (10)
+10.0.2.0/24        dev enp0s3 [direct1 07:09:41] * (240)
+192.168.57.0/24    dev enp0s8 [direct1 07:09:41] * (240)
+172.30.179.192/26  via 192.168.57.4 on enp0s8 [Node_192_168_57_5 08:22:08 from 192.168.57.5] * (100/0) [i]
+172.30.34.8/32     dev cali6c9ad161b12 [kernel1 07:09:41] * (10)
+172.17.0.0/16      dev docker0 [direct1 07:09:41] * (240)
+172.30.34.7/32     dev calic39cc9cb4e7 [kernel1 07:09:41] * (10)
+172.30.34.6/32     dev cali12d4a061371 [kernel1 07:09:41] * (10)
+172.30.34.0/26     blackhole [static1 07:09:41] * (200)
+```
