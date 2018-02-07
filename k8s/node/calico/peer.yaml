@@ -1,0 +1,8 @@
+apiVersion: projectcalico.org/v3
+kind: BGPPeer
+metadata:
+  name: peer.minion1
+spec:
+  node: minion1
+  peerIP: 192.168.57.4
+  asNumber: 63400
