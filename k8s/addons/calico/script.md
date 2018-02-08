@@ -179,3 +179,7 @@ BIRD 1.6.3 ready.
 /calico/resources/v3/projectcalico.org/workloadendpoints/kube-system/minion2-k8s-kube--dns--65ddcd8f4--t9n6j-eth0
 /calico/resources/v3/projectcalico.org/workloadendpoints/kube-system/minion2-k8s-kubernetes--dashboard--54db87455--cd5zh-eth0
 ```
+
+### calico rr如何与外部路由相通
+
+修改calico rr容器的配置文件/config/bird.cfg.template。添加默认的物理rr neighbor。物理rr添加rr容器neighbor。
