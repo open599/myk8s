@@ -146,3 +146,36 @@ BIRD 1.6.3 ready.
 ```
 
 
+```
+/calico/ipam/v2/assignment/ipv4/block/172.30.179.192-26
+/calico/ipam/v2/assignment/ipv4/block/172.30.34.0-26
+/calico/ipam/v2/handle/k8s-pod-network.04cff94076271743f054483af1788f7662b5bdb58d4472472c04c61993431cc2
+/calico/ipam/v2/handle/k8s-pod-network.19aba9c953689b0e3d43c26eeec60c59050c7f56dc3a3d3325673edcba42050e
+/calico/ipam/v2/handle/k8s-pod-network.30e9d4a28da4750ce05205caf72b3b6d4040b97bccbb186eb48d36144ac20634
+/calico/ipam/v2/handle/k8s-pod-network.72c861b862018a6e1b8a6e46b287510ebdec28e4173db93e80a7862394273842
+/calico/ipam/v2/handle/k8s-pod-network.b2f58da6645ed058f38c79ef823c6c1e5128b75193630e2823d3da0df389551e
+/calico/ipam/v2/handle/k8s-pod-network.bcb242ff44f3e5066ea30c653bb0e547a56045e17b85322805a30e364bf3fc15
+/calico/ipam/v2/handle/k8s-pod-network.e7dd0b5d2c0b432ff3309b36e8307b70130daff5346ac270c526cfa9f5e99f51
+/calico/ipam/v2/host/minion1/ipv4/block/172.30.34.0-26
+/calico/ipam/v2/host/minion2/ipv4/block/172.30.179.192-26
+/calico/resources/v3/projectcalico.org/bgpconfigurations/default
+/calico/resources/v3/projectcalico.org/bgppeers/peer.minion
+/calico/resources/v3/projectcalico.org/clusterinformations/default
+/calico/resources/v3/projectcalico.org/felixconfigurations/default
+/calico/resources/v3/projectcalico.org/felixconfigurations/node.minion1
+/calico/resources/v3/projectcalico.org/felixconfigurations/node.minion2
+/calico/resources/v3/projectcalico.org/ippools/default-ipv4-ippool
+/calico/resources/v3/projectcalico.org/ippools/default-ipv6-ippool
+/calico/resources/v3/projectcalico.org/nodes/minion1
+/calico/resources/v3/projectcalico.org/nodes/minion2
+/calico/resources/v3/projectcalico.org/profiles/kns.default
+/calico/resources/v3/projectcalico.org/profiles/kns.kube-public
+/calico/resources/v3/projectcalico.org/profiles/kns.kube-system
+/calico/resources/v3/projectcalico.org/workloadendpoints/default/minion1-k8s-busybox-eth0
+/calico/resources/v3/projectcalico.org/workloadendpoints/default/minion1-k8s-my--nginx--56b48db847--5r4vs-eth0
+/calico/resources/v3/projectcalico.org/workloadendpoints/default/minion1-k8s-nginx--ds--8q846-eth0
+/calico/resources/v3/projectcalico.org/workloadendpoints/default/minion2-k8s-my--nginx--56b48db847--twkvw-eth0
+/calico/resources/v3/projectcalico.org/workloadendpoints/default/minion2-k8s-nginx--ds--l86wf-eth0
+/calico/resources/v3/projectcalico.org/workloadendpoints/kube-system/minion2-k8s-kube--dns--65ddcd8f4--t9n6j-eth0
+/calico/resources/v3/projectcalico.org/workloadendpoints/kube-system/minion2-k8s-kubernetes--dashboard--54db87455--cd5zh-eth0
+```
