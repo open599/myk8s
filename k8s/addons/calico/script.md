@@ -65,8 +65,60 @@ rtt min/avg/max/mdev = 0.373/0.468/0.564/0.097 ms
 
 ### routereflector on
 
+#### 部署rr
+
+1. 容器方式  ./rr.sh
+2. host方式 bird,并且将路由映射到本地
+
+```
+yum install epel-release
+
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+yum install -y bird{,6}
+```
+
+```
+
+#/etc/bird.conf
+# Configure logging
+log syslog { debug, trace, info, remote, warning, error, auth, fatal, bug };
+log stderr all;
+
+# Override router ID
+router id <router_id>; #ip
+
+
+filter import_kernel {
+if ( net != 0.0.0.0/0 ) then {
+   accept;
+   }
+reject;
+}
+
+# Turn on global debugging of all protocols
+debug protocols all;
+
+# This pseudo-protocol watches all interface up/down events.
+protocol device {
+  scan time 2;    # Scan interfaces every 2 seconds
+}
+
+protocol bgp <node_shortname> {
+  description "<node_ip>";
+  local as <as_number>;
+  neighbor <node_ip> as <as_number>; #需要连接这个rr的client ip
+  multihop;
+  rr client;
+  graceful restart;
+  import all;
+  export all;
+}
+
+```
+
+#### 连接rr
 ```code
-./rr.sh
 
 calicoctl apply -f peer.yaml -c calico-config.yaml
 
@@ -80,7 +132,6 @@ IPv4 BGP status
 | 192.168.57.5 | global    | start | 08:35:37 | Active |
 +--------------+-----------+-------+----------+--------+
 
-
 [root@minion1 ~]# birdcl -s /var/run/calico/bird.ctl show route
 BIRD 1.6.3 ready.
 0.0.0.0/0          via 10.0.2.1 on enp0s3 [kernel1 07:09:41] * (10)
@@ -93,3 +144,5 @@ BIRD 1.6.3 ready.
 172.30.34.6/32     dev cali12d4a061371 [kernel1 07:09:41] * (10)
 172.30.34.0/26     blackhole [static1 07:09:41] * (200)
 ```
+
+
