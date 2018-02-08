@@ -18,7 +18,8 @@ template bgp bgp_template {
   graceful restart;  # See comment in kernel section about graceful restart.
 }
 protocol bgp other from bgp_template {
-  neighbor 192.168.57.6 as 63400
+  neighbor 192.168.57.6 as 63400;
+  rr client;
 }
 
 {{$our_rr_key := printf "/rr_v4/%s" (getenv "IP")}}
