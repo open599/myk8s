@@ -4,7 +4,7 @@ metadata:
   name: tnodeport
 spec:
   selector:
-    name: nginx-nodePort
+    name: nginx-nodeport
   type: NodePort
   ports:
   - name: foo # Actually, no port is needed.
@@ -14,13 +14,13 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: nginx-nodePort
+  name: nginx-nodeport
 spec:
   replicas: 2
   template:
     metadata:
       labels:
-        run: nginx-nodePort
+        run: nginx-nodeport
     spec:
       containers:
       - name: my-nginx
