@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
   - name: foo # Actually, no port is needed.
-    port: 38113
+    nodePort: 38113
     targetPort: 80
 ---
 apiVersion: extensions/v1beta1
