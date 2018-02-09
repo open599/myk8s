@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: default-subdomain
+spec:
+  selector:
+    name: nginx-nodePort
+  type: NodePort
+  ports:
+  - name: foo # Actually, no port is needed.
+    port: 38113
+    targetPort: 80
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nginx-nodePort
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: nginx-nodePort
+    spec:
+      containers:
+      - name: my-nginx
+        image: nginx:1.7.9
+        ports:
+        - containerPort: 80

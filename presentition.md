@@ -28,7 +28,8 @@ etcd：
 
 kubernetes资源概念：
 
-kubernetes运维手册：
+kubernetes最佳实践：
   1. 滚动升级
-  2. 
+  2. 服务发现
+  3. 服务
 
