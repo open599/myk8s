@@ -9,6 +9,7 @@ spec:
   ports:
   - name: foo # Actually, no port is needed.
     nodePort: 38113
+    port: 8902
     targetPort: 80
 ---
 apiVersion: extensions/v1beta1
